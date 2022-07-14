@@ -22,37 +22,31 @@ header {
 
 
 main {
-    .graphic {
-        position: absolute;
-        left: 220px;
-        overflow: hidden;
-        width: 21.1rem;
-    }
-
-    .image-1{
-        width: 25rem;
-    }
-
-    .container-1{
+    .container-1 {
         padding-top: 5rem;
-        p{
+        background-image: url(graphic.svg);
+        background-repeat: no-repeat;
+        background-size: 30rem;
+        background-position-x: 120px;
+
+        p {
             color: #ff3998;
-            font-size: 20px;
+            font-size: 15px;
             letter-spacing: 0.1rem;
             font-weight: bold;
         }
 
-        .flex-1{
+        .flex-1 {
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            gap: 10px;
         }
 
-        h1{
+        h1 {
             font-size: 50px;
         }
 
-        i{
+        i {
             width: max-content;
             text-align: justify;
             font-size: 23px;
@@ -60,7 +54,7 @@ main {
             color: #555555;
         }
 
-        button{
+        .sign-up {
             margin-top: 2.5rem;
             width: 11rem;
             line-height: 60px;
@@ -72,26 +66,26 @@ main {
         }
     }
 
-    .container-2{
+    .container-2 {
         background-image: url(background.svg);
         margin-top: 100px;
         padding-top: 5rem;
         padding-bottom: 25px;
         width: 100%;
 
-        h2{
+        h2 {
             color: #111111;
             font-style: normal;
             font-size: 40px;
         }
 
-        i{
+        i {
             font-size: 20px;
             font-style: normal;
         }
     }
 
-    .container-3{
+    .container-3 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -99,42 +93,193 @@ main {
         padding-top: 50px;
         gap: 15px;
 
-        img{
+        img {
             width: 80%;
         }
     }
 
-    .container-4{
+    .container-4 {
         padding-top: 30px;
 
-        h2{
+        h2 {
             font-size: 40px;
             color: #111111;
             font-style: normal;
         }
 
-        i{
+        i {
             font-size: 20px;
             font-style: normal;
             color: #555555;
             word-spacing: 4px;
             line-height: 30px;
-            
-            a{
+
+            a {
                 color: #555555;
             }
         }
     }
 
-    .container-5{
-        .flex-2{
+    .container-5 {
+        display: flex;
+        overflow: auto;
+        overflow-y: hidden;
+        margin-left: -39px;
+
+        .nft {
+            width: 265px;
+            text-align: left;
+
+        }
+
+        .flex-2 {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             background-color: #EEEEEE;
             border-bottom-left-radius: 5px;
             border-bottom-right-radius: 5px;
-            padding-top: 5px;
+            padding: 15px 0;
             margin-top: -4px;
+            width: 265px;
+            line-height: 25px;
+
+            .flex-3 {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+            }
+
+            .fig-1 {
+                color: #ff8139;
+                font-style: normal;
+                font-size: 10px;
+            }
+
+            .fig-2 {
+                color: #111111;
+                font-style: normal;
+                font-size: 20px;
+            }
+
+            .fig-3 {
+                color: #777777;
+                font-style: normal;
+                font-size: 18px;
+            }
+
+            .fig-4 {
+                color: #777777;
+                font-style: normal;
+                font-size: 12px;
+            }
+
+            .eth-logo {
+                width: 12px;
+            }
+        }
+    }
+
+    .devider {
+        margin-top: 100px;
+    }
+
+    .container-6 {
+        background-image: url(upsell-footer-image.svg);
+        background-repeat: no-repeat;
+        background-size: 190px;
+        background-position-x: 200px;
+        background-position-y: 230px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        h2 {
+            font-size: 50px;
+        }
+
+        i {
+            width: max-content;
+            text-align: justify;
+            font-size: 23px;
+            font-style: normal;
+            color: #555555;
+        }
+
+        .flex-1 {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .sign-up {
+            margin-top: 2.5rem;
+            width: 11rem;
+            line-height: 60px;
+            border: 5px solid;
+            border-radius: 30px;
+            background-color: #fff;
+            font-style: normal;
+            border-color: pinkgreen;
+        }
+    }
+}
+
+footer {
+    padding-top: 50px;
+
+    .container-7 {
+        .flex-4 {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            img {
+                width: 198px;
+            }
+
+            i {
+                color: #555555;
+                font-style: normal;
+                font-size: 20px;
+            }
+        }
+
+        .social-media {
+            img {
+                width: 20px;
+            }
+        }
+    }
+
+    .container-8 {
+        ul {
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+            list-style-type: none;
+            margin-left: -37px;
+
+            a{
+                text-decoration: none;
+                color: #555555;
+                font-size: 20px;
+            }
+
+            p{
+                color: #555555;
+                font-style: normal;
+                font-size: 16px;
+            }
+
+            li{
+                line-height: 30px;
+            }
+        }
+
+        .copy{
+            color: #999999;
+            font-style: normal;
+            font-size: 20px;
+            padding: 50px 0;
         }
     }
 }
