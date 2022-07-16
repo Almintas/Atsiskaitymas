@@ -1,0 +1,357 @@
+body {
+  margin: 0 auto;
+  width: 380px;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: fit-content;
+    padding: 60px;
+  }
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  width: 198px;
+}
+header div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    visibility: hidden;
+  }
+  header section {
+    padding-left: 130px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header section {
+    visibility: hidden;
+  }
+  header nav a {
+    text-decoration: none;
+    padding-left: 50px;
+    color: #555555;
+    font-size: 20px;
+  }
+  header nav .sign {
+    color: #ff3998;
+  }
+}
+main .container-1 {
+  padding-top: 5rem;
+  background-image: url(graphic.svg);
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  background-position-x: 120px;
+}
+main .container-1 p {
+  color: #ff3998;
+  font-size: 15px;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+main .container-1 .flex-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .container-1 h1 {
+  font-size: 50px;
+}
+main .container-1 i {
+  width: max-content;
+  text-align: justify;
+  font-size: 23px;
+  font-style: normal;
+  color: #555555;
+}
+main .container-1 .sign-up {
+  margin-top: 2.5rem;
+  width: 11rem;
+  line-height: 60px;
+  border: 5px solid;
+  border-radius: 30px;
+  background-color: #fff;
+  font-style: normal;
+  border-color: pinkgreen;
+}
+@media screen and (min-width: 768px) {
+  main .container-1 {
+    background-position: right;
+    background-size: 51rem;
+    padding-top: 200px;
+    background-position-y: 150px;
+  }
+  main .container-1 h1 {
+    font-size: 96px;
+  }
+}
+main .container-2 {
+  background-image: url(background.svg);
+  margin-top: 100px;
+  padding-top: 5rem;
+  padding-bottom: 25px;
+  width: 380px;
+}
+main .container-2 h2 {
+  color: #111111;
+  font-style: normal;
+  font-size: 40px;
+}
+main .container-2 i {
+  font-size: 20px;
+  font-style: normal;
+}
+@media screen and (min-width: 768px) {
+  main .container-2 {
+    width: 1440px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    padding-left: 50px;
+  }
+  main .container-2 br {
+    display: none;
+  }
+}
+main .container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: -10px;
+  padding-top: 50px;
+  gap: 15px;
+}
+main .container-3 img {
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  main .container-3 {
+    width: 1280px;
+    justify-content: space-between;
+  }
+}
+main .container-4 {
+  padding-top: 30px;
+}
+main .container-4 h2 {
+  font-size: 40px;
+  color: #111111;
+  font-style: normal;
+}
+main .container-4 i {
+  font-size: 20px;
+  font-style: normal;
+  color: #555555;
+  word-spacing: 4px;
+  line-height: 30px;
+}
+main .container-4 i a {
+  color: #555555;
+}
+@media screen and (min-width: 768px) {
+  main .container-4 {
+    padding-bottom: 50px;
+  }
+  main .container-4 br {
+    display: none;
+  }
+}
+main .container-5 {
+  display: flex;
+  overflow: auto;
+  overflow-y: hidden;
+  margin-left: -39px;
+}
+main .container-5 .nft {
+  width: 265px;
+  text-align: left;
+}
+main .container-5 .flex-2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #EEEEEE;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 15px 0;
+  margin-top: -4px;
+  width: 265px;
+  line-height: 25px;
+}
+main .container-5 .flex-2 .flex-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+main .container-5 .flex-2 .fig-1 {
+  color: #ff8139;
+  font-style: normal;
+  font-size: 10px;
+}
+main .container-5 .flex-2 .fig-2 {
+  color: #111111;
+  font-style: normal;
+  font-size: 20px;
+}
+main .container-5 .flex-2 .fig-3 {
+  color: #777777;
+  font-style: normal;
+  font-size: 18px;
+}
+main .container-5 .flex-2 .fig-4 {
+  color: #777777;
+  font-style: normal;
+  font-size: 12px;
+}
+main .container-5 .flex-2 .eth-logo {
+  width: 12px;
+}
+main .devider {
+  margin-top: 100px;
+}
+main .container-6 {
+  background-image: url(upsell-footer-image.svg);
+  background-repeat: no-repeat;
+  background-size: 190px;
+  background-position-x: 200px;
+  background-position-y: 230px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main .container-6 h2 {
+  font-size: 50px;
+}
+main .container-6 i {
+  font-size: 23px;
+  font-style: normal;
+  color: #555555;
+}
+main .container-6 p {
+  color: #ff3998;
+  font-size: 15px;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+main .container-6 .flex-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .container-6 .sign-up {
+  margin-top: 2.5rem;
+  width: 11rem;
+  line-height: 60px;
+  border: 5px solid;
+  border-radius: 30px;
+  background-color: #fff;
+  font-style: normal;
+  border-color: pinkgreen;
+}
+@media screen and (min-width: 768px) {
+  main .container-6 {
+    background-size: 206px;
+    background-position-x: 900px;
+    background-position-y: 150px;
+    padding-bottom: 200px;
+  }
+  main .container-6 h2 br {
+    display: none;
+  }
+}
+
+footer {
+  padding-top: 50px;
+}
+footer .flex-5 .flex-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .flex-5 .flex-4 img {
+  width: 198px;
+}
+footer .flex-5 .flex-4 i {
+  color: #555555;
+  font-style: normal;
+  font-size: 20px;
+}
+footer .flex-5 .social-media img {
+  width: 20px;
+  padding-top: 20px;
+}
+footer .flex-5 .copy {
+  visibility: hidden;
+}
+footer .flex-6 ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: none;
+  margin-left: -37px;
+}
+footer .flex-6 ul a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 20px;
+}
+footer .flex-6 ul p {
+  color: #555555;
+  font-style: normal;
+  font-size: 16px;
+}
+footer .flex-6 ul li {
+  line-height: 30px;
+}
+footer .flex-6 ul .li {
+  padding-top: 2px;
+}
+footer .flex-7 .launching {
+  visibility: hidden;
+}
+footer .flex-7 .copy {
+  color: #999999;
+  font-style: normal;
+  font-size: 20px;
+  padding: 50px 0;
+}
+@media screen and (min-width: 768px) {
+  footer .container-7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+  }
+  footer .container-7 .flex-6 {
+    display: flex;
+    gap: 80px;
+  }
+  footer .container-7 .flex-6 .li {
+    padding-left: 40px;
+    padding-top: 2px;
+  }
+  footer .flex-7 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+  footer .flex-7 .launching {
+    color: #999999;
+    font-style: normal;
+    font-size: 20px;
+    padding: 50px 0;
+    visibility: visible;
+    padding-top: 75px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
